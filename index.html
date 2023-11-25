@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de números</h1>
+        <h3>Valida somente se A < B</h3>
+        <form id="form-valid">
+            <input type="number" id="number-a" required placeholder="Campo A">
+            <input type="number" id="number-b" required placeholder="Campo B">
+            <button type="submit" id="validador" >Validar</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+        <p class="msg-valid"></p>
+        <p class="msg-invalid"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <p>
+            &copy; Calculator - Todos os direitos reservados - 2023
+        </p>
+    </div>
+</footer>
+</html>
